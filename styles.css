@@ -1,0 +1,265 @@
+/*------------------------------------------- Navbar ---------------------------------------------------*/
+.navbar img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+.navbar {
+  background-color: #0000ff;
+}
+.navbar a {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 1.2vw;
+}
+.navbar a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+.navbar-nav > li {
+  margin-right: 70px;
+}
+@media (max-width: 1100px) {
+  .navbar-nav > li {
+    margin-right: 30px;
+  }
+  .navbar a {
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 2vw;
+  }
+}
+@media (max-width: 480px) {
+  .navbar a {
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 6vw;
+  }
+}
+/*============================================================== home =======================================================*/
+#home {
+  background-color: #0000ff;
+  color: #ffffff;
+  padding: 0% 1%;
+}
+.contain {
+  width: 90%;
+}
+.texts {
+  padding: 2% 0%;
+}
+.left {
+  font-family: "Montserrat", sans-serif;
+  font-size: 45px;
+  font: semi-bold;
+  text-align: left;
+}
+.right {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8vw;
+  text-align: left;
+}
+.mlink a {
+  color: #ffffff;
+}
+img {
+  width: 100%;
+}
+.secleft,
+.secright {
+  text-align: left;
+}
+.typewriter h3 {
+  overflow: hidden;
+  border-right: 0.15em solid rgb(255, 255, 255);
+  white-space: nowrap;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.2vw;
+}
+.btn a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  50%,
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(255, 255, 255);
+  }
+}
+/*=============================================================== designWork ===============================================*/
+
+/*====================================================== codeWork ============================================================*/
+
+/*------------------------------------ Cards -------------------------------------*/
+
+/*========================================================== About Me =======================================*/
+
+/*========================================================== Contact =======================================================*/
+
+/*-------------------- Form ------------------------*/
+
+/*=========================================================== Footer  ===================================================*/
+.up {
+  width: 99%;
+  padding: 0% 0% 0% 5%;
+}
+.site-footer {
+  background-color: #000000;
+  padding: 2% 0 1%;
+  font-size: 15px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: "Source Code Pro", monospace;
+}
+.site-footer hr {
+  border-top-color: #ffffff;
+  opacity: 1;
+}
+.site-footer hr.small {
+  margin: 20px 0;
+}
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+  font-family: "Source Code Pro", monospace;
+}
+.site-footer a {
+  color: #ffffff;
+  font-family: "Source Code Pro", monospace;
+}
+.site-footer a:hover {
+  color: #51da4c;
+  text-decoration: none;
+}
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+  font-family: "Source Code Pro", monospace;
+}
+.footer-links li {
+  display: block;
+}
+.footer-links a {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Source Code Pro", monospace;
+}
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #51da4c;
+  text-decoration: none;
+}
+.footer-links.inline li {
+  display: inline-block;
+}
+.site-footer .social-icons {
+  text-align: right;
+}
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #33353d;
+}
+.copyright-text {
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .site-footer [class^="col-"] {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center;
+  }
+}
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+}
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+.social-icons a.github:hover {
+  background-color: #3b5998;
+}
+.social-icons a.behance:hover {
+  background-color: #00aced;
+}
+.social-icons a.linkedin:hover {
+  background-color: #007bb6;
+}
+.social-icons a.figma:hover {
+  background-color: #f02c25;
+}
+@media (max-width: 767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
