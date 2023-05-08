@@ -10,7 +10,7 @@
 .navbar a {
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
-  font-size: 1.2vw;
+  font-size: 1.6vw;
 }
 .navbar a:hover {
   text-decoration: underline;
@@ -40,13 +40,18 @@
 #home {
   background-color: #0000ff;
   color: #ffffff;
-  padding: 0% 1%;
+  padding: 1% 1%;
 }
 #home a {
-  font-size: 1.5vw;
+  font-size: 1.8vw;
 }
 .contain {
-  width: 90%;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 .texts {
   padding: 2% 0%;
@@ -56,17 +61,19 @@
   font-size: 45px;
   font: semi-bold;
   text-align: left;
+  margin-bottom: 1%;
 }
 .right {
   font-family: "Roboto", sans-serif;
-  font-size: 1.8vw;
+  font-size: 2vw;
   text-align: left;
 }
 .mlink a {
   color: #ffffff;
 }
 img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 .secleft,
 .secright {
@@ -110,9 +117,9 @@ img {
     border-color: rgb(255, 255, 255);
   }
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1500px) {
   #home a {
-    font-size: 1.3vw;
+    font-size: 1.5vw;
   }
 }
 @media screen and (max-width: 1100px) {
@@ -134,17 +141,398 @@ img {
   }
 }
 /*=============================================================== designWork ===============================================*/
-
+#designWork {
+  text-align: center;
+  justify-content: center;
+}
+.contains {
+  width: 99%;
+}
+#designWork hr {
+  width: 98%;
+  margin: 5% auto 1% auto;
+  border: 2px solid #000000;
+  position: relative;
+}
+#designWork h3 {
+  margin-top: 2%;
+  margin-left: 2%;
+  color: #ffffff;
+  background-color: #000000;
+  font-size: 45px;
+  width: 250px;
+  height: 65px;
+  font-family: "Roboto", sans-serif;
+}
+#designWork h2 {
+  margin-top: 2%;
+  margin-left: 1%;
+  font-size: 40px;
+  width: 350px;
+  height: 65px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: semi-bold;
+  text-decoration: underline;
+}
+.banner {
+  width: 99%;
+}
+.behance {
+  width: 30%;
+  margin-top: 8%;
+  margin-left: 70%;
+}
+.ubody {
+  margin: 3% 1%;
+}
+.ubody img {
+  height: 1000px;
+}
+.photo {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+img {
+  transition: transform 0.25s;
+}
+.photo:hover img {
+  transform: scale(1.1);
+}
+@media screen and (max-width: 500px) {
+  .ubody img {
+    height: 500px;
+  }
+  .ubody img {
+    height: 700px;
+  }
+}
 /*====================================================== codeWork ============================================================*/
+#codeWork {
+  background-color: #000000;
+  height: 500px;
+}
+#codeWork h4 {
+  margin-top: 2%;
+  margin-left: 1%;
+  font-size: 36px;
+  width: 350px;
+  height: 65px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  padding-bottom: 10%;
+}
+#codeWork p {
+  margin-top: 2%;
+  margin-left: 2%;
+  font-size: 20px;
+  text-align: left;
+  width: 400px;
+  height: 65px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  padding-bottom: 12%;
+  letter-spacing: 0.1em;
+}
+#codeWork a {
+  color: #ffffff;
+}
+.git {
+  padding-right: 55%;
+}
+.codeme {
+  border: 2px solid #ffffff;
+  height: 200px;
+}
+.coded p {
+  font-family: "Roboto Serif", serif;
+  font-size: 18px;
+}
+span {
+  color: #51da4c;
+  font-family: "Source Code Pro", monospace;
+}
+@media screen and (max-width: 500px) {
+  .coded p {
+    font-family: "Roboto Serif", serif;
+    font-size: 3vw;
+  }
+  .coded span {
+    color: #51da4c;
+    font-family: "Source Code Pro", monospace;
+    font-size: 3.5vw;
+  }
+}
+/*------------------------------ Cards ----------------------------*/
+.cards {
+  width: 100%;
+  max-height: auto;
+  background-color: #000000;
+}
+.job {
+  width: 99%;
+}
+.card {
+  margin: 0% 0% 0% 5%;
+  color: white;
+  border: 3px solid white;
+  transition: all 0.3s ease-in-out;
+  width: 98%;
+}
+.card-content {
+  background-color: black;
+}
+.card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.card h2 {
+  font-size: 32px;
+  margin-bottom: 80%;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  padding: 3%;
+}
 
-/*------------------------------------ Cards -------------------------------------*/
+.card p {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  padding: 3%;
+}
+.card a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
 
 /*========================================================== About Me =======================================*/
-
+#aboutMe {
+  background-color: #28044a;
+  max-height: auto;
+  padding-top: 1% 0%;
+}
+.contacts {
+  width: 99%;
+  padding: 5% 0%;
+}
+#aboutMe img {
+  width: 70%;
+}
+.information {
+  border: 2px solid #51da4c;
+  height: 100%;
+  color: #ffffff;
+  text-align: left;
+}
+.information h2 {
+  font-family: "Montserrat", sans-serif;
+  padding: 2% 0%;
+  font-size: 3vw;
+  padding: 1%;
+}
+.information h3 {
+  font-family: "Montserrat", sans-serif;
+  padding: 2% 0%;
+  font-size: 2vw;
+  padding: 1%;
+}
+.information h4 {
+  font-family: "Source Code Pro", monospace;
+  padding: 1% 0%;
+  font-size: 2vw;
+}
+.information p {
+  font-family: "Source Code Pro", monospace;
+  padding: 1% 0%;
+  font-size: 2vw;
+  padding: 1%;
+}
+.circle {
+  position: relative;
+  max-width: auto;
+  max-height: auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  width: 30%;
+  height: 55%;
+  position: absolute;
+  animation: anim 10s linear infinite;
+  margin: 1% 9%;
+}
+@keyframes anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.text span {
+  position: absolute;
+  left: 50%;
+  font-size: 2.4em;
+  transform-origin: 0 270px;
+}
+@media screen and (max-width: 1500px) {
+  .text {
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    animation: anim 10s linear infinite;
+    margin: 1% 9%;
+  }
+  .text p {
+    font-size: 1vw;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .text {
+    width: 55%;
+    height: 30%;
+    position: absolute;
+    animation: anim 10s linear infinite;
+    margin: 1% 9%;
+  }
+  .text p {
+    font-size: 1vw;
+  }
+}
+@media screen and (max-width: 800px) {
+  .text {
+    width: 55%;
+    height: 50%;
+    position: absolute;
+    animation: anim 10s linear infinite;
+    margin: 1% 3%;
+  }
+  .text p {
+    font-size: 1vw;
+  }
+}
+@media screen and (max-width: 500px) {
+  .information h2 {
+    font-family: "Montserrat", sans-serif;
+    padding: 2% 0%;
+    font-size: 5vw;
+    padding: 1%;
+  }
+  .information h3 {
+    font-family: "Montserrat", sans-serif;
+    padding: 2% 0%;
+    font-size: 4vw;
+    padding: 1%;
+  }
+  .information h4 {
+    font-family: "Source Code Pro", monospace;
+    padding: 1% 0%;
+    font-size: 4vw;
+    padding: 1%;
+  }
+  .information p {
+    font-family: "Source Code Pro", monospace;
+    padding: 1% 0%;
+    font-size: 4vw;
+    padding: 1%;
+  }
+  .text {
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    animation: anim 10s linear infinite;
+    margin: 1% 3%;
+  }
+  .text p {
+    font-size: 2vw;
+  }
+}
 /*========================================================== Contact =======================================================*/
+#contact {
+  max-height: auto;
+  max-width: auto;
+}
+.cont {
+  width: 99.3%;
+}
+.contform {
+  background-color: #51da4c;
+  height: 1200px;
+  padding: 8%;
+}
+.athens {
+  background-image: url(/Images/contact.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 1200px;
+}
+.contform h2 {
+  width: 50%;
+  margin: 0% 25%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: bolder;
+}
 
 /*-------------------- Form ------------------------*/
-
+.bsize {
+  width: 50%;
+  margin: 1% 25%;
+}
+input {
+  background-color: #51da4c;
+  border: 3px solid black;
+  color: black;
+  width: 440px;
+}
+#fname {
+  margin-top: 10%;
+  font-size: 25px;
+  font-family: "Source Code Pro", monospace;
+  color: black;
+}
+#lname {
+  margin-top: 3%;
+  font-size: 25px;
+  font-family: "Source Code Pro", monospace;
+  color: black;
+}
+#email {
+  margin: 3% 0%;
+  font-size: 25px;
+  font-family: "Source Code Pro", monospace;
+  color: black;
+}
+textarea {
+  background-color: #51da4c;
+  border: 3px solid black;
+  font-size: 25px;
+  font-family: "Source Code Pro", monospace;
+  width: 440px;
+  height: 200px;
+}
+button {
+  font-size: 25px;
+  font-family: "Source Code Pro", monospace;
+}
+@media screen and (max-width: 500px) {
+  input {
+    background-color: #51da4c;
+    border: 3px solid black;
+    color: black;
+    width: 370px;
+  }
+  textarea {
+    background-color: #51da4c;
+    border: 3px solid black;
+    font-size: 25px;
+    font-family: "Source Code Pro", monospace;
+    width: 370px;
+    height: 200px;
+  }
+}
 /*=========================================================== Footer  ===================================================*/
 .up {
   width: 99%;
