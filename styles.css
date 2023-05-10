@@ -265,7 +265,7 @@ span {
 }
 /*------------------------------ Cards ----------------------------*/
 .cards {
-  width: 100%;
+  max-width: auto;
   max-height: auto;
   background-color: #000000;
 }
@@ -304,7 +304,24 @@ span {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
-
+@media screen and (max-width: 500px) {
+  .card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  .cards {
+    max-width: auto;
+    max-height: auto;
+    background-color: #000000;
+  }
+  .card {
+    margin: 0% 0% 0% 10%;
+    color: white;
+    border: 3px solid white;
+    transition: all 0.3s ease-in-out;
+    width: 90%;
+  }
+}
 /*========================================================== About Me =======================================*/
 #aboutMe {
   background-color: #28044a;
