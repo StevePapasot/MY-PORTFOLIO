@@ -701,6 +701,9 @@ button {
 .social-icons a.figma:hover {
   background-color: #f02c25;
 }
+.social-icons a.replit:hover {
+  background-color: #ff504a;
+}
 @media (max-width: 767px) {
   .social-icons li.title {
     display: block;
