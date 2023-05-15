@@ -424,7 +424,7 @@ span {
     transform-origin: 0 200px;
   }
 }
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 1080px) {
   .text {
     width: 55%;
     height: 50%;
@@ -435,7 +435,13 @@ span {
   .text p {
     font-size: 1vw;
   }
-}
+  .text span {
+    position: absolute;
+    left: 50%;
+    font-size: 3.5em;
+    transform-origin: 0 200px;
+  }
+} */
 @media screen and (max-width: 500px) {
   .information h2 {
     font-family: "Montserrat", sans-serif;
