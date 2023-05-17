@@ -9,5 +9,6 @@ In order to created I used:
 -CSS
 -BOOTSTRAP
 -JAVASCRIPT
+- WordPress
 
 ![preview](https://github.com/StevePapasot/MY-PORTFOLIO/assets/75527414/cfe17da2-2c7e-4af1-a78c-f230120b1864)
