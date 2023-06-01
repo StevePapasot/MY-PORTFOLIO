@@ -341,6 +341,13 @@ span {
   color: #ffffff;
   text-align: left;
 }
+.both img {
+  cursor: pointer;
+}
+.both h4 {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
 .information h2 {
   font-family: "Montserrat", sans-serif;
   padding: 2% 0%;

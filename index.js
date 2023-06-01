@@ -51,3 +51,26 @@ const card = document.querySelector(".card");
 card.addEventListener("click", () => {
   console.log("Card clicked!");
 });
+
+//------------------------------------------------- Downloadable CV ----------------------------------------------------
+window.onload = function () {
+  // Get the image element by its ID
+  var pdfImage = document.getElementById("pdf-download");
+
+  // Add a click event listener to the image
+  pdfImage.addEventListener("click", function () {
+    // Create an anchor element
+    var downloadLink = document.createElement("a");
+    downloadLink.href = "/Stavros_Papasotiropoulos_Resume.pdf"; // Replace with the actual path to your PDF file
+    downloadLink.download = "downloaded-file.pdf"; // Specify the file name for the downloaded file
+
+    // Append the anchor element to the body
+    document.body.appendChild(downloadLink);
+
+    // Programmatically trigger the click event on the anchor element
+    downloadLink.click();
+
+    // Remove the anchor element from the body
+    document.body.removeChild(downloadLink);
+  });
+};
