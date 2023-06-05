@@ -489,8 +489,8 @@ span {
     padding: 1%;
   }
   .text {
-    width: 90%;
-    height: 35%;
+    width: 80%;
+    height: 30%;
     position: absolute;
     animation: anim 10s linear infinite;
     margin: 1% 3%;
