@@ -206,6 +206,16 @@ img {
   .ubody img {
     height: 700px;
   }
+  #designWork h2 {
+    margin-top: 2%;
+    margin-left: 1%;
+    font-size: 30px;
+    width: 300px;
+    height: 65px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: semi-bold;
+    text-decoration: underline;
+  }
 }
 /*====================================================== codeWork ============================================================*/
 #codeWork {
