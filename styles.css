@@ -436,13 +436,19 @@ span {
 @media screen and (max-width: 1500px) {
   .text {
     width: 40%;
-    height: 80%;
+    height: 50%;
     position: absolute;
     animation: anim 10s linear infinite;
-    margin: 1% 9%;
+    margin: 1% 4%;
   }
   .text p {
     font-size: 1vw;
+  }
+  .text span {
+    position: absolute;
+    left: 50%;
+    font-size: 3.5em;
+    transform-origin: 0 220px;
   }
 }
 @media screen and (max-width: 1100px) {
