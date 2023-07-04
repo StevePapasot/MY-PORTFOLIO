@@ -433,10 +433,10 @@ span {
   font-size: 2.4em;
   transform-origin: 0 270px;
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1600px) {
   .text {
     width: 40%;
-    height: 50%;
+    height: 60%;
     position: absolute;
     animation: anim 10s linear infinite;
     margin: 1% 4%;
@@ -447,7 +447,7 @@ span {
   .text span {
     position: absolute;
     left: 50%;
-    font-size: 3.5em;
+    font-size: 2.5em;
     transform-origin: 0 220px;
   }
 }
